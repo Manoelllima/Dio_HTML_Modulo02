@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    text-align: center;
+
+}
+.menu {
+    width: 15%;
+    background-color: #67b588;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #d1f7ba;
+    min-height: 150px;
+   
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #d1f3db;
+    min-height: 150px;
+   
+}
+
+input,
+textarea{
+    display: block;
+    margin: 10px auto;
+}
